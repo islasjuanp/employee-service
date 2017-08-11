@@ -12,7 +12,7 @@ public interface EmployeeDAO {
     List<Employee> getByLastName(String name);
     List<Employee> getByTitle(String title);
     List<Employee> getByDept(String dept);
-    boolean add(Employee employee);  // False equals fail
-    boolean update(long id, Employee employee); // False equals fail
-    boolean delete(long id); // False equals fail
+    boolean add(Employee employee);
+    boolean update(long id, Employee employee);
+    boolean delete(long id);
 }
