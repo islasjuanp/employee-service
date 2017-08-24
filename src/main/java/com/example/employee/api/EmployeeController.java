@@ -5,7 +5,6 @@ package com.example.employee.api;
 import java.util.List;
 
 import com.example.employee.repository.EmployeeDAO;
-import com.example.employee.repository.EmployeeListDAO;
 import com.example.employee.domain.Employee;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,7 +20,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/employees")
 public class EmployeeController {
 
-    EmployeeDAO employeeDAO = new EmployeeListDAO();
+    private EmployeeDAO employeeDAO;
+
+    public EmployeeController(EmployeeDAO employeeDAO) {
+        this.employeeDAO = employeeDAO;
+    }
 
     // Get all employees
     @RequestMapping(method = RequestMethod.GET)

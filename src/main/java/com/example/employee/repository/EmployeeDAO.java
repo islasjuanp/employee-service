@@ -7,12 +7,12 @@ import com.example.employee.domain.Employee;
 import java.util.List;
 
 public interface EmployeeDAO {
-    public List<Employee> getAllEmployees();
-    public Employee getEmployee(long id);
-    public List<Employee> getByLastName(String name);
-    public List<Employee> getByTitle(String title);
-    public List<Employee> getByDept(String dept);
-    public boolean add(Employee employee);  // False equals fail
-    public boolean update(long id, Employee employee); // False equals fail
-    public boolean delete(long id); // False equals fail
+    List<Employee> getAllEmployees();
+    Employee getEmployee(long id);
+    List<Employee> getByLastName(String name);
+    List<Employee> getByTitle(String title);
+    List<Employee> getByDept(String dept);
+    boolean add(Employee employee);  // False equals fail
+    boolean update(long id, Employee employee); // False equals fail
+    boolean delete(long id); // False equals fail
 }
