@@ -17,6 +17,13 @@ Topics covered:
 2. Building a RESTful Java Application with Spring Boot
 3. Automating Build and Deploy with Developer Cloud Services 
 
+## Configure environment
+
+### Rerun the code generator:
+```bash
+mvn clean generate-sources -Pgenerate
+```
+
 ## Run Application 
 
 ### Run integration test
