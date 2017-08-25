@@ -239,9 +239,9 @@
                         <configuration>
                             <jdbc>
                                 <driver>com.mysql.jdbc.Driver</driver>
-                                <url>jdbc:mysql://localhost:3306/data</url>
-                                <user>user</user>
-                                <password>password</password>
+                                <url>jdbc:mysql://172.17.0.2:3306/enterprise</url>
+                                <user>root</user>
+                                <password>123456</password>
                             </jdbc>
                             <generator>
                                 <name>org.jooq.util.DefaultGenerator</name>
@@ -249,14 +249,14 @@
                                     <name>org.jooq.util.mysql.MySQLDatabase</name>
                                     <includes>.*</includes>
                                     <excludes />
-                                    <inputSchema>data</inputSchema>
+                                    <inputSchema>enterprise</inputSchema>
                                 </database>
                                 <target>
-                                    <packageName>sample.jooq.domain</packageName>
-                                    <directory>${basedir}/src/main/java/com/example/employee/db</directory>
+                                    <packageName>com.example.employee.db.jooq.domain</packageName>
+                                    <directory>${basedir}/src/main/java</directory>
                                 </target>
                                 <generate>
-                                    <records>false</records>
+                                    <records>true</records>
                                 </generate>
                             </generator>
                         </configuration>
