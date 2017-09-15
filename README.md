@@ -1,5 +1,5 @@
 # Employee Servce 
-
+[![Build Status](https://travis-ci.org/islasjuanp/employee-service.svg?branch=master)](https://travis-ci.org/islasjuanp/employee-service)
 
 ## Description 
 Microservices are a compilation of independently deployable, small and modular application services. 

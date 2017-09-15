@@ -1,0 +1,6 @@
+language: java
+sudo: false
+services:
+  - docker
+
+script: mvn clean install
