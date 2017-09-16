@@ -1,4 +1,5 @@
 # Employee Servce 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/517116d5d0da4201b433592ad231522a)](https://www.codacy.com/app/islasjuanp/employee-service?utm_source=github.com&utm_medium=referral&utm_content=islasjuanp/employee-service&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/islasjuanp/employee-service.svg?branch=master)](https://travis-ci.org/islasjuanp/employee-service)
 [![Coverage Status](https://coveralls.io/repos/github/islasjuanp/employee-service/badge.svg?branch=master)](https://coveralls.io/github/islasjuanp/employee-service?branch=master)
 
