@@ -216,6 +216,11 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <excludes>
+                        <exclude>src/main/java/com/example/employee/db/jooq/domain/**/*.java</exclude>
+                    </excludes>
+                </configuration>
             </plugin>
 
             <plugin>
