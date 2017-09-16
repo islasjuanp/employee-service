@@ -1,5 +1,6 @@
 # Employee Servce 
 [![Build Status](https://travis-ci.org/islasjuanp/employee-service.svg?branch=master)](https://travis-ci.org/islasjuanp/employee-service)
+[![Coverage Status](https://coveralls.io/repos/github/islasjuanp/employee-service/badge.svg?branch=master)](https://coveralls.io/github/islasjuanp/employee-service?branch=master)
 
 ## Description 
 Microservices are a compilation of independently deployable, small and modular application services. 
