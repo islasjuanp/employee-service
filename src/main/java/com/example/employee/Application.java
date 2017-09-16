@@ -3,6 +3,7 @@ package com.example.employee;
 
 import java.util.Optional;
 import java.util.Properties;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -18,7 +19,7 @@ public class Application {
         host = Optional.ofNullable(System.getenv("HOSTNAME"));
         port = Optional.ofNullable(System.getenv("PORT"));
     }
-    
+
     public static void main(String[] args) {
         // Set properties
 
@@ -29,5 +30,5 @@ public class Application {
         app.setDefaultProperties(myProps);
         app.run(args);
 
-    }    
+    }
 }
