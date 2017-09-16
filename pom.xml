@@ -208,6 +208,11 @@
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.7.6.201602180812</version>
+                <configuration>
+                    <excludes>
+                        <exclude>**/db/jooq/domain/**/*</exclude>
+                    </excludes>
+                </configuration>
                 <executions>
                     <execution>
                         <id>prepare-agent</id>
@@ -216,11 +221,6 @@
                         </goals>
                     </execution>
                 </executions>
-                <configuration>
-                    <excludes>
-                        <exclude>src/main/java/com/example/employee/db/jooq/domain/**/*.java</exclude>
-                    </excludes>
-                </configuration>
             </plugin>
 
             <plugin>
