@@ -6,12 +6,11 @@ package com.example.employee.db.jooq.domain;
 
 import com.example.employee.db.jooq.domain.tables.Employee;
 import com.example.employee.db.jooq.domain.tables.records.EmployeeRecord;
-
-import javax.annotation.Generated;
-
 import org.jooq.Identity;
 import org.jooq.UniqueKey;
 import org.jooq.impl.AbstractKeys;
+
+import javax.annotation.Generated;
 
 
 /**

@@ -1,11 +1,11 @@
 /* Copyright © 2017 Oracle and/or its affiliates. All rights reserved. */
 package com.example.employee;
 
-import java.util.Optional;
-import java.util.Properties;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.Optional;
+import java.util.Properties;
 
 @SpringBootApplication
 public class Application {

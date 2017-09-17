@@ -7,20 +7,13 @@ package com.example.employee.db.jooq.domain.tables;
 import com.example.employee.db.jooq.domain.Enterprise;
 import com.example.employee.db.jooq.domain.Keys;
 import com.example.employee.db.jooq.domain.tables.records.EmployeeRecord;
+import org.jooq.*;
+import org.jooq.impl.TableImpl;
 
+import javax.annotation.Generated;
 import java.sql.Date;
 import java.util.Arrays;
 import java.util.List;
-
-import javax.annotation.Generated;
-
-import org.jooq.Field;
-import org.jooq.Identity;
-import org.jooq.Schema;
-import org.jooq.Table;
-import org.jooq.TableField;
-import org.jooq.UniqueKey;
-import org.jooq.impl.TableImpl;
 
 
 /**

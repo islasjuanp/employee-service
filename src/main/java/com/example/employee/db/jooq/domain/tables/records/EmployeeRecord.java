@@ -5,16 +5,14 @@ package com.example.employee.db.jooq.domain.tables.records;
 
 
 import com.example.employee.db.jooq.domain.tables.Employee;
-
-import java.sql.Date;
-
-import javax.annotation.Generated;
-
 import org.jooq.Field;
 import org.jooq.Record1;
 import org.jooq.Record8;
 import org.jooq.Row8;
 import org.jooq.impl.UpdatableRecordImpl;
+
+import javax.annotation.Generated;
+import java.sql.Date;
 
 
 /**

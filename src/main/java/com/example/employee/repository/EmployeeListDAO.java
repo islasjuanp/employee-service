@@ -69,9 +69,10 @@ public class EmployeeListDAO implements EmployeeDAO {
         long next = eList.size() + 100;
 
         Employee nextEmployee =
-                new Employee(next, employee.getFirstName(), employee.getLastName(),
-                        employee.getEmail(), employee.getPhone(),
-                        employee.getBirthDate(), employee.getTitle(), employee.getDept());
+                new Employee(next, employee.getFirstName(),
+                        employee.getLastName(), employee.getEmail(),
+                        employee.getPhone(), employee.getBirthDate(),
+                        employee.getTitle(), employee.getDept());
 
         eList.add(nextEmployee);
         return true;
