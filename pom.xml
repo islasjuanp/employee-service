@@ -218,7 +218,7 @@
                 </executions>
                 <configuration>
                     <excludes>
-                        <exclude>src/main/java/com/example/employee/db/jooq/domain/**/*.java</exclude>
+                        <exclude>com/example/employee/db/jooq/domain/**/*</exclude>
                     </excludes>
                 </configuration>
             </plugin>

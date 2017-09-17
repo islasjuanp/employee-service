@@ -14,20 +14,20 @@ public class ApplicationIT extends TestCase {
      * @param testName name of the test case
      */
     public ApplicationIT(String testName) {
-        super( testName );
+        super(testName);
     }
 
     /**
      * @return the suite of tests being tested
      */
     public static Test suite() {
-        return new TestSuite( ApplicationTest.class );
+        return new TestSuite(ApplicationTest.class);
     }
 
     /**
      * Rigourous Test :-)
      */
     public void testApp() {
-        assertTrue( true );
+        assertTrue(true);
     }
 }

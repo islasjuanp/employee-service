@@ -1,10 +1,11 @@
 /* Copyright © 2017 Oracle and/or its affiliates. All rights reserved. */
 package com.example.employee;
 
-import java.util.Optional;
-import java.util.Properties;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.Optional;
+import java.util.Properties;
 
 @SpringBootApplication
 public class Application {
@@ -18,7 +19,7 @@ public class Application {
         host = Optional.ofNullable(System.getenv("HOSTNAME"));
         port = Optional.ofNullable(System.getenv("PORT"));
     }
-    
+
     public static void main(String[] args) {
         // Set properties
 
@@ -29,5 +30,5 @@ public class Application {
         app.setDefaultProperties(myProps);
         app.run(args);
 
-    }    
+    }
 }
